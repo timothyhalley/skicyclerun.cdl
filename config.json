@@ -1,0 +1,56 @@
+{
+  "comfy_model_root": "/Users/timothyhalley/ComfyUI-Shared/models",
+
+  "folders": {
+    "audio_encoders": "audio_encoders",
+    "background_removal": "background_removal",
+    "checkpoints": "checkpoints",
+    "classifiers": "classifiers",
+    "clip": "clip",
+    "configs": "configs",
+    "controlnet": "controlnet",
+    "detection": "detection",
+    "diffusers": "diffusers",
+    "diffusion_models": "diffusion_models",
+    "frame_interpolation": "frame_interpolation",
+    "geometry_estimation": "geometry_estimation",
+    "gligen": "gligen",
+    "hypernetworks": "hypernetworks",
+    "latent_upscale_models": "latent_upscale_models",
+    "model_patches": "model_patches",
+    "optical_flow": "optical_flow",
+    "photomaker": "photomaker",
+    "style_models": "style_models",
+    "text_enc": "text_enc",
+    "upscale_models": "upscale_models",
+    "vae": "vae",
+    "vae_approx": "vae_approx",
+    "custom": "custom"
+  },
+
+  "model_type_map": {
+    "UNETLoader": "diffusion_models",
+    "CLIPLoader": "text_enc",
+    "VAELoader": "vae",
+    "LoRALoader": "hypernetworks",
+    "CheckpointLoader": "checkpoints",
+    "ControlNetLoader": "controlnet",
+    "UpscaleModelLoader": "upscale_models",
+    "LatentUpscaleLoader": "latent_upscale_models",
+    "AudioEncoderLoader": "audio_encoders",
+    "BackgroundRemovalLoader": "background_removal",
+    "PhotomakerLoader": "photomaker",
+    "StyleModelLoader": "style_models",
+    "OpticalFlowLoader": "optical_flow",
+    "FrameInterpolationLoader": "frame_interpolation",
+    "GligenLoader": "gligen",
+    "GeometryEstimationLoader": "geometry_estimation",
+    "ClassifierLoader": "classifiers",
+    "VAEApproxLoader": "vae_approx"
+  },
+
+  "huggingface": {
+    "use_symlinks": false,
+    "cache_dir": "~/.cache/huggingface"
+  }
+}
